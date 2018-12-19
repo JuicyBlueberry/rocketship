@@ -13,9 +13,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Set up app window and point storyboard to main.
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        var vc: UIViewController?
+        
+        if (UserDefaults.standard.value(forKey: "name") as? String) == nil {
+            //show the onboarding screen
+            vc = storyboard.instantiateViewController(withIdentifier: "OnboardingVC")
+        }
+        else {
+            //show the main screen
+            storyboard.instantiateInitialViewController()
+        }
+        
+        //Set onboarding screen or main screen
+        self.window?.rootViewController = vc
+        self.window?.makeKeyAndVisible()
         return true
     }
 
