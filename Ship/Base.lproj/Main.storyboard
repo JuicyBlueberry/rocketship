@@ -50,7 +50,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Column to buy weapons OR a button to take them to weapons page" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2Sg-Dh-Y2S">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Column to equip owned weapons, displays the ones that they own and they can scroll through them vertically" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2Sg-Dh-Y2S">
                                 <rect key="frame" x="0.0" y="302" width="122" height="365"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
