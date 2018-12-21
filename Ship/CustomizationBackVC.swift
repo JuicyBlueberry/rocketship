@@ -17,5 +17,7 @@ class CustomizationBackVC: UIViewController {
     
     @IBAction func dismissTapped(_ sender: Any) {
         
+        dismiss(animated: true, completion: nil)
     }
+    
 }
