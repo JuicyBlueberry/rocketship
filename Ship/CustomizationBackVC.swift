@@ -15,9 +15,15 @@ class CustomizationBackVC: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func dismissTapped(_ sender: Any) {
-        
+    @IBAction func backTapped(_ sender: Any) {
+        //customization
         dismiss(animated: true, completion: nil)
     }
-    //this is a comment
+   
+    
+    @IBAction func backShop(_ sender: Any) {
+        //shop
+        dismiss(animated: true, completion: nil)
+    }
+    
 }
