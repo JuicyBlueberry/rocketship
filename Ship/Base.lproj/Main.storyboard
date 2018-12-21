@@ -75,6 +75,9 @@
                                 <rect key="frame" x="271" y="32" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="customizationBack:" destination="VZb-nr-Kpc" eventType="touchUpInside" id="sJT-rh-NLc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

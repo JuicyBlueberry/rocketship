@@ -15,7 +15,11 @@ class CustomizationBackVC: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func dismissTapped(_ sender: Any) {
-        
+    @IBAction func customizationBack(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
+    
+//    @IBAction func dismissTapped(_ sender: Any) {
+//
+//    }
 }
