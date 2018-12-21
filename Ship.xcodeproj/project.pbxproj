@@ -17,6 +17,7 @@
 		8AC1581F21C9E46C0093D5DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1581D21C9E46C0093D5DC /* LaunchScreen.storyboard */; };
 		8AC1582A21C9E46D0093D5DC /* ShipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1582921C9E46D0093D5DC /* ShipTests.swift */; };
 		8AC1583521C9E46D0093D5DC /* ShipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1583421C9E46D0093D5DC /* ShipUITests.swift */; };
+		8AFC94E121CC9CED00B0E6B3 /* CustomizationBackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFC94E021CC9CED00B0E6B3 /* CustomizationBackVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8AC1583021C9E46D0093D5DC /* ShipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC1583421C9E46D0093D5DC /* ShipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipUITests.swift; sourceTree = "<group>"; };
 		8AC1583621C9E46D0093D5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFC94E021CC9CED00B0E6B3 /* CustomizationBackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationBackVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				8AC1581B21C9E46C0093D5DC /* Assets.xcassets */,
 				8AC1581D21C9E46C0093D5DC /* LaunchScreen.storyboard */,
 				8AC1582021C9E46C0093D5DC /* Info.plist */,
+				8AFC94E021CC9CED00B0E6B3 /* CustomizationBackVC.swift */,
 			);
 			path = Ship;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				8AC1581521C9E46B0093D5DC /* GameScene.swift in Sources */,
 				8AC1581721C9E46B0093D5DC /* GameViewController.swift in Sources */,
 				8AC1580F21C9E46B0093D5DC /* AppDelegate.swift in Sources */,
+				8AFC94E121CC9CED00B0E6B3 /* CustomizationBackVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
