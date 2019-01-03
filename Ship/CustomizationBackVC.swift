@@ -26,4 +26,9 @@ class CustomizationBackVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    
+    @IBAction func backSettings(_ sender: Any) {
+        //settings
+        dismiss(animated: true, completion: nil)
+    }
 }
