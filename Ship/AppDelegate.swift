@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
             storyboard.instantiateInitialViewController()
         
-
+        //set initial window
         self.window?.rootViewController = vc
         self.window?.makeKeyAndVisible()
         return true
