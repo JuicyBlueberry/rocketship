@@ -21,21 +21,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         var vc: UIViewController?
         
-        if (UserDefaults.standard.value(forKey: "name") as? String) == nil {
-            //show the onboarding screen
-            vc = storyboard.instantiateViewController(withIdentifier: "OnboardingVC")
-        }
-        else {
-            //show the main screen
-            storyboard.instantiateInitialViewController()
-        }
         
-        //Set onboarding screen or main screen
+            
+            vc = storyboard.instantiateViewController(withIdentifier: "MainVC")
+        
+            storyboard.instantiateInitialViewController()
+        
+
         self.window?.rootViewController = vc
         self.window?.makeKeyAndVisible()
         return true
     }
-
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
