@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13117DB221E598430094C6FD /* bulletFire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 13117DB121E598430094C6FD /* bulletFire.wav */; };
 		8AC1580F21C9E46B0093D5DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1580E21C9E46B0093D5DC /* AppDelegate.swift */; };
 		8AC1581121C9E46B0093D5DC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1581021C9E46B0093D5DC /* GameScene.sks */; };
 		8AC1581321C9E46B0093D5DC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1581221C9E46B0093D5DC /* Actions.sks */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13117DB121E598430094C6FD /* bulletFire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bulletFire.wav; sourceTree = "<group>"; };
 		8AC1580B21C9E46B0093D5DC /* Ship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC1580E21C9E46B0093D5DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AC1581021C9E46B0093D5DC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13117DB321E5984E0094C6FD /* SoundFX */ = {
+			isa = PBXGroup;
+			children = (
+				13117DB121E598430094C6FD /* bulletFire.wav */,
+			);
+			path = SoundFX;
+			sourceTree = "<group>";
+		};
 		8AC1580221C9E46B0093D5DC = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 				8AC1581D21C9E46C0093D5DC /* LaunchScreen.storyboard */,
 				8AC1582021C9E46C0093D5DC /* Info.plist */,
 				8AFC94E021CC9CED00B0E6B3 /* CustomizationBackVC.swift */,
+				13117DB321E5984E0094C6FD /* SoundFX */,
 			);
 			path = Ship;
 			sourceTree = "<group>";
@@ -245,6 +256,7 @@
 				8AC1581121C9E46B0093D5DC /* GameScene.sks in Resources */,
 				8AC1581C21C9E46C0093D5DC /* Assets.xcassets in Resources */,
 				8AC1581F21C9E46C0093D5DC /* LaunchScreen.storyboard in Resources */,
+				13117DB221E598430094C6FD /* bulletFire.wav in Resources */,
 				8AC1581321C9E46B0093D5DC /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
